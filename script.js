@@ -10,7 +10,9 @@ class signUp{
     }
 
     showInfo(){
-        console.log(this.firstName, this.lastName, this.email, this.password, this.gender);
+        // console.log(this.firstName, this.lastName, this.email, this.password, this.gender);
+         var m=this.firstName +"\n"+ this.lastName+"\n"+this.email+"\n"+this.password+"\n"+this.gender
+        alert(m)
     }
 
 
@@ -21,7 +23,7 @@ function getElementFromFrontEnd(){
     LastName = document.getElementById("lastname").value,
     Email = document.getElementById("email").value,
     Password = document.getElementById("password").value
-
+  
     if(document.getElementById('male').checked){
        gender=document.getElementById('male').value;
     }
