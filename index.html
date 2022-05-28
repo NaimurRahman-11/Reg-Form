@@ -36,14 +36,16 @@
 
     <form>
         <label for="gender" style="font-size: 14px;">Gender:</label>
-        <input type="radio" id="gender" name="gender" value="male"/><span style="font-size: 14px;">Male</span>
-        <input type="radio" id="gender" name="gender" value="female"/><span style="font-size: 14px;">Female</span><br><br>
+        <input type="radio" id="male" name="gender" value="male"/><span style="font-size: 14px;">Male</span>
+        <input type="radio" id="female" name="gender" value="female"/><span style="font-size: 14px;">Female</span><br><br>
     </form>
 
     <form>
-        <input type="submit" value="Submit" class="submit"/><br></div>
+        <input type="button" onclick="printData()" value="Submit" class="submit"/><br></div>
     </fieldset>
     </form>
 </div>
+
+<script src="script.js"></script>
 </body>
 </html>
